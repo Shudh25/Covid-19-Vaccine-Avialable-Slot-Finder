@@ -48,9 +48,6 @@ button{
 
 .inpt{
     background-color: #fec0ff;
-
-    /* backdrop-filter: blur(5px); */
-    border: 2.5px solid white;
     border-radius: 37px;
     width: 27vw;
     height: 20vh;
