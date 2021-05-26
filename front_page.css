@@ -5,15 +5,18 @@
 
 .container{
     /* background-image: url('img/vac1.jpg'); */
-    background-image: url('img/vac1.jpg');
+    background-image: url('vac1.jpg');
     background-size: 100vw 100vh;
     width: 100vw;
     height: 100vh;
 }
 
 h1{
-    font-size: 4rem;
+    font-size: 5rem;
     font-family: 'Teko', sans-serif;
+    padding: 1rem 0px;
+    padding-bottom: 0px;
+    text-shadow: 4px 3.5px #fff2f2;
 }
 
 label{
@@ -29,24 +32,44 @@ label{
 #pin{
     font-size: 2rem;
     width: 16vw;
+    border: 2.1px solid blue;
+    border-radius: 12px;
 }
 
 button{
     font-size: 2rem;
+    margin: 1rem 3.3rem;
+    padding: 0.2rem 5rem;
+    border: 2px solid violet;
+    border-radius: 16px;
+    background-color: #fd4165;
+    font-family: 'Teko';
 }
 
 .inpt{
-    border: 3px solid white;
+    background-color: #fec0ff;
+
+    /* backdrop-filter: blur(5px); */
+    border: 2.5px solid white;
     border-radius: 37px;
     width: 27vw;
-    height: 35vh;
+    height: 20vh;
     padding: 43px;
+    margin: 6rem 2.7rem;
 }
 
 .pin-cont{
     margin: 13px 0px;
+    font-family: 'Teko';
+    text-shadow: 2px 2px grey;
 }
 
 label{
     margin-right: 17px;
+}
+
+.vacImg-cont{
+    position: absolute;
+    right: 1.8rem;
+    bottom: 11rem;
 }
