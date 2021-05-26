@@ -1,2 +1,2 @@
 # Covin
-Covid Vaccine Registrayion Status
+Covid Vaccine Registrayion Status Website
